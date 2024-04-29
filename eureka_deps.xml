@@ -2,17 +2,16 @@
 <manifest>
 	<remote name="rakib"
                 fetch="https://github.com/iamrh1819"
-		revision="android-14"/>
+		revision="android-13"/>
 	<remote name="eureka"
 		fetch="https://github.com/eurekadevelopment"/>
 	<remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground"
-		revision="lineage-21"/>
+                fetch="https://github.com/Roynas-Android-Playground"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib"/>
 	<project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="rakib"/>
-        
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="thirteen"/>
 
 </manifest>
