@@ -9,7 +9,7 @@
                 fetch="https://github.com/Roynas-Android-Playground"/>
 
         <!-- Eureka -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib"/>
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="Voltage" />
 	<project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="rakib"/>
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
