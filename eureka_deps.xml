@@ -3,7 +3,7 @@
 	<remote name="rakib"
                 fetch="https://github.com/iamrh1819"/>
         <!-- Eureka -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="Voltage" />
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="voltage-14" />
 
 
 </manifest>
