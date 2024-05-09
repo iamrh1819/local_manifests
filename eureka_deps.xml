@@ -14,7 +14,7 @@
         <remote name="royna" fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-21"/>
         <remote name="linag" fetch="https://github.com/LineageOS"/>
-        <remote name="cr" fetch="https://github.com/crdroidandroid"
+        <remote name="cr" fetch="https://github.com/crdroidandroid"/>
 
 
         <!-- Eureka & Rakib -->
