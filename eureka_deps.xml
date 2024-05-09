@@ -14,7 +14,7 @@
         <remote name="royna" fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-20"/>
 
-        <remote name="cr" fetch="https://github.com/crdroidandroid"
+        <remote name="cr" fetch="https://github.com/crdroidandroid"/>
 
 
         <!-- DT -->
@@ -36,7 +36,7 @@
         <!-- Royna's forks, repos & linag -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-	<remove-project name="android_hardware_samsung" />
+	<remove-project path="hardware/samsung" name="android_hardware_samsung" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="thirteen"/>
         <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="rakib" revision="lineage-20.0"/>
 
