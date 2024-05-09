@@ -6,8 +6,8 @@
         <remote name="rakib"
 		fetch="https://github.com/iamrh1819"/>
 	<remote name="slsi-linaro"
-		fetch="https://github.com/linux4-bringup-priv"
-		revision="lineage-21.0"/>
+		fetch="https://github.com/K9100ii"
+		revision="lineage-19.1"/>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		revision="lineage-20"/>
@@ -42,8 +42,6 @@
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
                  name="android_hardware_samsung_slsi-linaro_graphics" remote="slsi-linaro" />
-	<project path="hardware/samsung_slsi-linaro/interfaces"
-                 name="android_hardware_samsung_slsi-linaro_interfaces" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/exynos"
                  name="android_hardware_samsung_slsi-linaro_exynos" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/exynos5"
