@@ -2,7 +2,7 @@
 <manifest>
         <remote name="eureka"
 		fetch="https://github.com/eurekadevelopment"
-		revision="android-14"/>
+		revision="android-13"/>
         <remote name="rakib"
 		fetch="https://github.com/iamrh1819"/>
 	<remote name="slsi-linaro"
@@ -10,9 +10,9 @@
 		revision="lineage-21.0"/>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
-		revision="lineage-21"/>
+		revision="lineage-20"/>
         <remote name="royna" fetch="https://github.com/Roynas-Android-Playground"
-		revision="lineage-21"/>
+		revision="lineage-20"/>
         <remote name="linag" fetch="https://github.com/LineageOS"/>
         <remote name="cr" fetch="https://github.com/crdroidandroid"
 
@@ -36,8 +36,8 @@
         <!-- Royna's forks, repos & linag -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
-        <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="linag" revision="lineage-21.0"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="thirteen"/>
+        <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="rakib" revision="lineage-20.0"/>
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
@@ -55,5 +55,5 @@
 
         <!-- cr sepolicy -->
         <project path="device/aosp/sepolicy" 
-		 name="android_device_crdroid_sepolicy" remote="cr" revision="14.0"/>
+		 name="android_device_crdroid_sepolicy" remote="cr" revision="13.0"/>
 </manifest>
