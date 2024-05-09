@@ -3,18 +3,22 @@
         <remote name="eureka"
 		fetch="https://github.com/eurekadevelopment"
 		revision="android-14"/>
-	<remote name="eureka-slsi-linaro"
-		fetch="https://github.com/eurekadevelopment"
-		revision="lineage-21"/>
+        <remote name="rakib"
+		fetch="https://github.com/iamrh1819"/>
+	<remote name="slsi-linaro"
+		fetch="https://github.com/linux4-bringup-priv"
+		revision="lineage-21.0"/>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		revision="lineage-21"/>
-        <remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground"
+        <remote name="royna" fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-21"/>
+        <remote name="linag" fetch="https://github.com/LineageOS"/>
+        <remote name="cr" fetch="https://github.com/crdroidandroid"
 
-        <!-- Eureka -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka"/>
+
+        <!-- Eureka & Rakib -->
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="14"/>
         <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka"/>
 
@@ -29,20 +33,27 @@
                  name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="lineage-cp" />
 
-        <!-- Royna's forks and repos -->
+        <!-- Royna's forks, repos & linag -->
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
         <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
+        <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="linag" revision="lineage-21.0"/>
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
-                 name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_graphics" remote="slsi-linaro" />
 	<project path="hardware/samsung_slsi-linaro/interfaces"
-                 name="android_hardware_samsung_slsi-linaro_interfaces" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_interfaces" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/exynos"
-                 name="android_hardware_samsung_slsi-linaro_exynos" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_exynos" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/exynos5"
+                 name="android_hardware_samsung_slsi-linaro_exynos5" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/config"
-                 name="android_hardware_samsung_slsi-linaro_config" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_config" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/openmax"
-                 name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_openmax" remote="slsi-linaro" />
+
+        <!-- cr sepolicy -->
+        <project path="device/aosp/sepolicy" 
+		 name="android_device_crdroid_sepolicy" remote="cr" revision="14.0"/>
 </manifest>
