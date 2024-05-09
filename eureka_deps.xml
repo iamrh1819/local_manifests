@@ -17,7 +17,7 @@
         <remote name="cr" fetch="https://github.com/crdroidandroid"
 
 
-        <!-- Eureka -->
+        <!-- DT -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="14"/>
         <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka"/>
