@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rakib"
-		fetch="https://github.com/iamrh1819"/>
+        <remote name="rakib" fetch="https://github.com/iamrh1819"/>
 
         <!-- DT -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A13"/>
