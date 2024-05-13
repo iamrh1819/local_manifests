@@ -3,5 +3,5 @@
         <remote name="rakib" fetch="https://github.com/iamrh1819"/>
 
         <!-- DT -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A14"/>
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="Alpha-14"/>
 </manifest>
