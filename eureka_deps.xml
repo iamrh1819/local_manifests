@@ -4,6 +4,6 @@
         <remote name="vv"
                 fetch="https://github.com/vijaymalav564"/>
         <!-- DT -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A15-Ext"/>
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A15-a30s"/>
         <project path="prebuilts/clang/host/linux-x86/clang-vortex" name="vortex-clang" remote="vv" revision="master"/>
 </manifest>
