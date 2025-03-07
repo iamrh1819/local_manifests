@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="eureka"
-		fetch="https://github.com/eurekadevelopment"
-		revision="android-13"/>
-	<remote name="eureka-slsi-linaro"
-		fetch="https://github.com/eurekadevelopment"
+        <remote name="rakib"
+		fetch="https://github.com/iamrh1819"/>
+	<remote name="eureka"
+		fetch="https://github.com/eurekadevelopment"/>
+	<remote name="slsi-linaro"
+		fetch="https://github.com/K9100ii"
 		revision="lineage-19.1"/>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
@@ -14,9 +15,9 @@
 		revision="lineage-20"/>
 
         <!-- Eureka -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka"/>
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="scandium"/>
         <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
-        <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka"/>
+        <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-13"/>
 
         <!-- LineageOS -->
         <project path="hardware/samsung_slsi/libbt"
@@ -36,11 +37,11 @@
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
-                 name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_graphics" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/exynos"
-                 name="android_hardware_samsung_slsi-linaro_exynos" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_exynos" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/config"
-                 name="android_hardware_samsung_slsi-linaro_config" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_config" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/openmax"
-                 name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka-slsi-linaro" />
+                 name="android_hardware_samsung_slsi-linaro_openmax" remote="slsi-linaro" />
 </manifest>
