@@ -3,7 +3,10 @@
         <remote name="rakib" fetch="https://github.com/iamrh1819"/>
         <remote name="vv"
                 fetch="https://github.com/vijaymalav564"/>
+        <remote name="royna"
+                fetch="https://github.com/Roynas-Android-Playground"/>
         <!-- DT -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A15-N"/>
+        <project path="kernel/samsung/exynos7885" name="ek-private" remote="royna" revision="R24U" recurse_submodules="true"/>
         <project path="prebuilts/clang/host/linux-x86/clang-vortex" name="vortex-clang" remote="vv" revision="master"/>
 </manifest>
