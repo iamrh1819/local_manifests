@@ -8,7 +8,7 @@
 		revision="lineage-21"/>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
-		revision="lineage-22.0"/>
+		revision="lineage-22.2"/>
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-22"/>
