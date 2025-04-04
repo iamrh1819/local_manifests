@@ -5,7 +5,7 @@
 		revision="android-15"/>
 	<remote name="eureka-slsi-linaro"
 		fetch="https://github.com/eurekadevelopment"
-		revision="lineage-21"/>
+		revision="lineage-22.2"/>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		revision="lineage-22.2"/>
