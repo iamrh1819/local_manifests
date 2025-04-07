@@ -17,7 +17,7 @@
 	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
 
         <!-- Kernel -->
-	<project path="kernel/samsung/exynos7885" name="ek-private" remote="royna" revision="R24U" />
+	<project path="kernel/samsung/exynos7885" name="ek-private" recurse_submodules="true" remote="royna" revision="R24U" />
 
         <!-- Vendors -->
 	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
