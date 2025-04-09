@@ -3,10 +3,13 @@
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 		review="review.lineageos.org"
-		revision="lineage-19.1"/>
+		revision="lineage-20"/>
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
-		revision="twelve"/>
+		revision="thirteen"/>
+	<remote name="slsi-linaro"
+		fetch="https://github.com/K9100ii"
+		revision="lineage-20"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
@@ -41,7 +44,19 @@
                  remote="lineage-cp" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
 
+        <!-- SLSI Linaro -->
+	<project path="hardware/samsung_slsi-linaro/graphics"
+                 name="android_hardware_samsung_slsi-linaro_graphics" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/exynos"
+                 name="android_hardware_samsung_slsi-linaro_exynos" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/config"
+                 name="android_hardware_samsung_slsi-linaro_config" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/openmax"
+                 name="android_hardware_samsung_slsi-linaro_openmax" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/interfaces"
+                 name="android_hardware_samsung_slsi-linaro_interfaces" remote="slsi-linaro" />
+	
         <!-- Royna's forks and repos -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-19.1"/>
-        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-19.1"/>
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-20"/>
+        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-20"/>
 </manifest>
