@@ -42,7 +42,6 @@
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
                  name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="lineage-cp" />
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
@@ -57,6 +56,7 @@
                  name="android_hardware_samsung_slsi-linaro_interfaces" remote="slsi-linaro" />
 	
         <!-- Royna's forks and repos -->
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna"/>
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-21"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-21"/>
 </manifest>
