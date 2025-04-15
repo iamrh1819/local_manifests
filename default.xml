@@ -7,11 +7,10 @@
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="eleven"/>
 	<remote name="rakib"
-                fetch="https://github.com/iamrh1819"
-		revision="eleven"/>
+                fetch="https://github.com/iamrh1819"/>
 
         <!-- Devices -->
-	<project path="device/samsung/a10" name="device_samsung_a10" remote="rakib"/>
+	<project path="device/samsung/a10" name="device_samsung_a10" remote="rakib" revision="corvus-A11"/>
 	<project path="device/samsung/a20" name="device_samsung_a20" remote="royna"/>
 	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="royna"/>
 	<project path="device/samsung/a30" name="device_samsung_a30" remote="royna"/>
