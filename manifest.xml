@@ -55,6 +55,10 @@
                  name="android_hardware_samsung_slsi-linaro_openmax" remote="slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/interfaces"
                  name="android_hardware_samsung_slsi-linaro_interfaces" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/exynos5"
+                 name="android_hardware_samsung_slsi-linaro_exynos5" remote="slsi-linaro" />
+        <project path="hardware/samsung_slsi-linaro/codec2"
+                 name="android_hardware_samsung_slsi-linaro_codec2" remote="slsi-linaro" />
 	
         <!-- Royna's forks and repos -->
         <project path="hardware/samsung" name="android_hardware_samsung" remote="royna"/>
