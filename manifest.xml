@@ -2,6 +2,7 @@
 <manifest>
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
+		review="review.lineageos.org"
 		revision="lineage-18.1"/>
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
