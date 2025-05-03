@@ -3,8 +3,20 @@
         <remote name="rakib" fetch="https://github.com/iamrh1819"/>
         <remote name="vv"
                 fetch="https://github.com/vijaymalav564"/>
-      
+        <remote name="royna"
+                fetch="https://github.com/Roynas-Android-Playground"
+		revision="fifteen"/>
         <!-- DT -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A14-BT"/>
         <project path="prebuilts/clang/host/linux-x86/clang-vortex" name="vortex-clang" remote="vv" revision="master"/>
+
+        <!-- Vendors -->
+	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
+	<project path="vendor/samsung/a20" name="vendor_samsung_a20" remote="royna"/>
+	<project path="vendor/samsung/a20e" name="vendor_samsung_a20e" remote="royna"/>
+	<project path="vendor/samsung/a30" name="vendor_samsung_a30" remote="royna"/>
+	<project path="vendor/samsung/a30s" name="vendor_samsung_a30s" remote="royna"/>
+	<project path="vendor/samsung/a40" name="vendor_samsung_a40" remote="royna"/>
+	<project path="vendor/samsung/exynos7885-common" name="vendor_samsung_exynos7885-common" remote="royna"/>
+        
 </manifest>
