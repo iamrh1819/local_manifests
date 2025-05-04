@@ -4,7 +4,7 @@
         <remote name="vv"
                 fetch="https://github.com/vijaymalav564"/>
         <remote name="royna"
-                fetch="https://github.com/Roynas-Android-Playground"
+                fetch="https://github.com/iamrh1819"
 		revision="fifteen"/>
         <!-- DT -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A14-BT"/>
