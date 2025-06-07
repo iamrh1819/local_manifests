@@ -16,12 +16,12 @@
 		revision="lineage-22.2"/>
 
         <!-- Devices -->
-	<project path="device/samsung/a10" name="device_samsung_a10" remote="rakib"/>
+	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
 	<project path="device/samsung/a20" name="device_samsung_a20" remote="rakib"/>
-	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="rakib"/>
-	<project path="device/samsung/a30" name="device_samsung_a30" remote="rakib"/>
-	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="rakib"/>
-	<project path="device/samsung/a40" name="device_samsung_a40" remote="rakib"/>
+	<project path="device/samsung/a20e" name="device_samsung_a20e" remote="royna"/>
+	<project path="device/samsung/a30" name="device_samsung_a30" remote="royna"/>
+	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="royna"/>
+	<project path="device/samsung/a40" name="device_samsung_a40" remote="royna"/>
 	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="rakib"/>
 
         <!-- Kernel -->
