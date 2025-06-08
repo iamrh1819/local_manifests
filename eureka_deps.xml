@@ -5,9 +5,9 @@
                 fetch="https://github.com/vijaymalav564"/>
         <remote name="royna"
                 fetch="https://github.com/iamrh1819"
-		revision="fourteen"/>
+		revision="fifteen"/>
         <!-- DT -->
-        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A14-BT"/>
+        <project path="device/samsung" name="android_device_samsung_exynos7885" remote="rakib" revision="A15-BT"/>
         <project path="prebuilts/clang/host/linux-x86/clang-vortex" name="vortex-clang" remote="vv" revision="master"/>
 
         <!-- Vendors -->
