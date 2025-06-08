@@ -11,9 +11,9 @@
                 fetch="https://github.com/iamrh1819"
 		revision="fifteen"/>
 	<remote name="slsi-linaro"
-		fetch="https://github.com/LineageOS"
-		review="review.lineageos.org"
-		revision="lineage-22.2"/>
+		fetch="https://github.com/iamrh1819"
+		
+		revision="lineage-21.0"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
