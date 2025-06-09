@@ -64,7 +64,7 @@
                  name="android_hardware_samsung_slsi-linaro_codec2" remote="slsi-linaro" />
 	
         <!-- Royna's forks and repos -->
-        <project path="hardware/samsung" name="android_hardware_samsung_royna" remote="rakib"/>
+        <project path="hardware/samsung" name="android_hardware_samsung_royna" remote="rakib" revision="fifteen"/>
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-22"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-22"/>
 </manifest>
