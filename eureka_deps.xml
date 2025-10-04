@@ -11,6 +11,8 @@
 		fetch="https://github.com/LineageOS"
 		review="review.lineageos.org"
 		revision="lineage-22.2"/>
+	<remote name="rakib"
+                fetch="https://github.com/iamrh1819"/>
 
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
@@ -60,7 +62,7 @@
                  name="android_hardware_samsung_slsi-linaro_codec2" remote="slsi-linaro" />
 	
         <!-- Royna's forks and repos -->
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="rakib" revision="A15"/>
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-22"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-22"/>
 </manifest>
