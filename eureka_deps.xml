@@ -14,6 +14,9 @@
 	<remote name="rakib"
                 fetch="https://github.com/hossain1410"/>
 
+	<remote name="rakib"
+                fetch="https://github.com/iamrh1819"/>
+	
         <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
 	<project path="device/samsung/a20" name="device_samsung_a20" remote="royna"/>
@@ -21,7 +24,7 @@
 	<project path="device/samsung/a30" name="device_samsung_a30" remote="royna"/>
 	<project path="device/samsung/a30s" name="device_samsung_a30s" remote="royna"/>
 	<project path="device/samsung/a40" name="device_samsung_a40" remote="royna"/>
-	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
+	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="rakib" revision="fifteen"/>
 
         <!-- Kernel -->
 	
