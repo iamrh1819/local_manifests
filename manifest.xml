@@ -8,7 +8,7 @@
                 fetch="https://github.com/Roynas-Android-Playground"
 				revision="bumblebee"/>
 		<remote name="slsi-linaro"
-				fetch="https://github.com/LineageOS"
+				fetch="https://github.com/Roynas-Android-Playground"
 				review="review.lineageos.org"
 				revision="lineage-23.1"/>
 
@@ -57,12 +57,6 @@
              name="android_hardware_samsung_slsi-linaro_config" remote="slsi-linaro" />
     <project path="hardware/samsung_slsi-linaro/openmax"
              name="android_hardware_samsung_slsi-linaro_openmax" remote="slsi-linaro" />
-    <project path="hardware/samsung_slsi-linaro/interfaces"
-             name="android_hardware_samsung_slsi-linaro_interfaces" remote="slsi-linaro" />
-    <project path="hardware/samsung_slsi-linaro/exynos5"
-             name="android_hardware_samsung_slsi-linaro_exynos5" remote="slsi-linaro" />
-    <project path="hardware/samsung_slsi-linaro/codec2"
-             name="android_hardware_samsung_slsi-linaro_codec2" remote="slsi-linaro" />
 	
     <!-- Royna's forks and repos -->
     <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces"
